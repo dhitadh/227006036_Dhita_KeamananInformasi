@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Aplikasi Enkripsi Dekripsi</h2>
+      <textarea
+        id="inputText"
+        placeholder="Masukkan teks yang ingin dienkripsi/dekripsi"
+      ></textarea>
+      <input type="number" id="shift" placeholder="Jumlah pergeseran" />
+      <button onclick="encrypt()">Enkripsi</button>
+      <button onclick="decrypt()">Dekripsi</button>
+      <textarea
+        id="outputText"
+        readonly
+        placeholder="Hasil enkripsi/dekripsi"
+      ></textarea>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
